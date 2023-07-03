@@ -3,8 +3,13 @@
 - open that folder with VSCode
 - create file main.tf
 - install terraform then in the terminal write terraform -v
+  
+# Create an IAM user in AWS then attach administrator policy then create a secret key, secret access key 
+- find out ami from your AWS EC2 ami ID
 
-# main.tf
+# main.tf 
+- ignore the left indentations below. (see the link https://registry.terraform.io/providers/hashicorp/aws/latest/docs )
+- 
 -terraform {
 -  required_providers {
 -    aws = {
@@ -47,11 +52,10 @@
 -  }
 -}
 
-# Create an IAM user in AWS then attach administrator policy then create a secret key, secret access key 
-- find out ami from your AWS EC2 ami ID
+
 # Next Steps: Terraform commands 
 - terraform init
-- terraform plan
+- terraform plan 
 - terraform apply
 # EC2 Instance Created !! Check your AWS console
 - after finishing the lab, don't forget to destroy the running ec2 instances
