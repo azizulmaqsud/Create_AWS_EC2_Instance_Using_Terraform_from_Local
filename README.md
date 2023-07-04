@@ -1,4 +1,4 @@
-# Creating_AWS_EC2_Instances_Using_Terraform_part-1
+# Creating AWS EC2 Instances Using Terraform from Local Machine
 - create a folder in the local machine
 - open that folder with VSCode
 - create file main.tf
