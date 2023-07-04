@@ -1,4 +1,4 @@
-# Creating_AWS_EC2_Instances_Using_Terraform
+# Creating_AWS_EC2_Instances_Using_Terraform_part-1
 - create a folder in the local machine
 - open that folder with VSCode
 - create file main.tf
